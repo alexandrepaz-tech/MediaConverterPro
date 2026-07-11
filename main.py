@@ -1,7 +1,7 @@
 """
 PROJETO: MediaConverter Pro
 AUTOR: Alexandre G Paz
-VERSÃO: 1.5
+VERSÃO: 1.6
 DATA DE LANÇAMENTO: 11/07/2026
 DIREITOS AUTORAIS © 2026 - Todos os direitos reservados.
 """
@@ -21,7 +21,7 @@ import pillow_heif
 import pillow_avif
 
 # --- CONFIGURAÇÕES ---
-GITHUB_USER = "seu-usuario"
+GITHUB_USER = "alexandrepaz-tech"
 REPO_NAME = "MediaConverterPro"
 VERSION_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{REPO_NAME}/main/version.json"
 INSTALL_DIR = os.path.join(os.environ["LOCALAPPDATA"], "MediaConverterPro")
@@ -80,7 +80,7 @@ class MediaConverterPro(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.version = "1.5"
+        self.version = "1.6"
         self.author = "Alexandre G Paz"
         self.release_date = "11/07/2026"
 
